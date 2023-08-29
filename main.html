@@ -3,17 +3,42 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+<!-- 	<link rel="stylesheet" href="styles.css"> -->
+	<style>
+		table,td,th{
+			border : 1px solid black;
+			cellspacing = "0";
+		}
+	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
     <table>
-		<tr>
-			<td>Component</td>
-			<td>Requirement</td>
-			<td>Details</td>
-		</tr>
+		<thead>
+			<tr>
+				<th>Component</th>
+				<th>Requirement</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Main Container</td>
+				<td>ID</td>
+				<td>animal-photos</td>
+			</tr>
+			<tr>
+				<td>Heading</td>
+				<td>Content & ID</td>
+				<td>Text: "Animal Photos", ID: photo-heading</td>
+			</tr>
+			<tr>
+				<td>Images</td>
+				<td>Source, Alt Attribute</td>
+				<td>Each image's source must match the corresponding URL for the given animal, and include an alt attribute related to the animal.</td>
+			</tr>
+		</tbody>
 	</table>
 
 </body>
